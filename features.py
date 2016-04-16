@@ -6,4 +6,7 @@ labels = [0, 0, 1, 1]
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels)
 
+# 0 = apples
+# 1 = oranges
+
 print clf.predict([[180, 0]])
